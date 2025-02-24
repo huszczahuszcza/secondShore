@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		90C46DEE2D6CDE0D00249F65 /* secondShoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C46DED2D6CDE0D00249F65 /* secondShoreApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		90C46DEA2D6CDE0D00249F65 /* secondShore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondShore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C46DED2D6CDE0D00249F65 /* secondShoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondShoreApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		90C46E012D6D030D00249F65 /* Exceptions for "secondShore" folder in "secondShore" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				ViewModels/Untitled.swift,
+			);
+			target = 90C46DE92D6CDE0D00249F65 /* secondShore */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		90C46DEC2D6CDE0D00249F65 /* secondShore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				90C46E012D6D030D00249F65 /* Exceptions for "secondShore" folder in "secondShore" target */,
+			);
 			path = secondShore;
 			sourceTree = "<group>";
 		};
@@ -33,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				90C46DEC2D6CDE0D00249F65 /* secondShore */,
+				90C46DED2D6CDE0D00249F65 /* secondShoreApp.swift */,
 				90C46DEB2D6CDE0D00249F65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C46DEE2D6CDE0D00249F65 /* secondShoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +272,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"secondShore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = secondShore/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Aplikacja potrzebuje dostępu do Twojej lokalizacji, by pokazać Twoją aktualną pozycję na mapie.\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Aplikacja potrzebuje dostępu do Twojej lokalizacji, by pokazać Twoją aktualną pozycję na mapie.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,9 +303,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"secondShore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = secondShore/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"Aplikacja potrzebuje dostępu do Twojej lokalizacji, by pokazać Twoją aktualną pozycję na mapie.\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Aplikacja potrzebuje dostępu do Twojej lokalizacji, by pokazać Twoją aktualną pozycję na mapie.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
